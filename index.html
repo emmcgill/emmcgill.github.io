@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <title>McGill Portfolio</title>
+</head>
+<body>
+
+    <!--NAV BAR-->
+    <a id="home-link"></a>
+    <nav class="navbar" id="mobile-nav-adj">
+        <h3 class="navbar-brand">ERIK McGILL</h3>
+        <div class="navbar-link-wrapper">
+            <a href="#home-link">Home</a>
+            <a href="#portfolio-link">Portfolio</a>
+            <a href="#contact-link">Contact</a>
+        </div>
+    </nav>
+
+    <!--SPLASH / ABOUT ME-->
+    <div class="container-fluid splash-wrapper">
+        <div class="monon-wrapper">
+            <img src="Assets/Colorado.jpg">
+        </div>
+        <div class="row about-me-text-wrapper" id="no-mobile">
+            <h1 class= "col-sm-12 about-me-header">WELCOME</h1>
+                <p> My name is Erik McGill, and I am a recent graduate of Eleven Fifty's .NET developer program.
+                Whether it is taking photographs on the hiking trails, 
+                or cooking new recipes in my kitchen I have always had a strong passion to create and build new and diffferent things. 
+                This desire is what spurred me to take this new journey into computer programming.
+                Feel free to search through my collection of work.
+                <br>
+                <a href="Assets/MCGILLERIKRESUME.docx"><input type="submit" value="Download Resume" class="resume-button"></a>
+                </p>
+            </div>
+        </div>        
+    </div>
+
+    <!--SKILLS-->
+    <div class="container-fluid skills-content-wrapper">
+        <div class="row skill-section-header">
+            <h3>SKILLS <span class= "break"></span></h3>
+        </div>
+        <div class="row skill-list-wrapper">
+            <div class="col-xs-12 col-sm-3 skill-wrapper" id="html-css">
+                <div class="skill-img-wrapper">
+                    <img src="Assets/HTML-CSS-ICON.png" alt="HTML/CSS">
+                </div>
+                <div class="skill-header-wrapper">
+                    <h4>HTML5/CSS3</h4>
+                </div>
+                <div class="skill-description-wrapper">
+                    <p>Applying HTML and CSS styling techniques to create aesthetically pleasing user experiences.</p>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-3 skill-wrapper" id="bootstrap">
+                <div class="skill-img-wrapper">
+                    <img src="Assets/BOOTSTRAP.png" alt="Bootstrap">
+                </div>
+                <div class="skill-header-wrapper">
+                    <h4>BOOTSTRAP</h4>
+                </div>
+                <div class="skill-description-wrapper">
+                    <p>Utilizing Boostrap for formatting allowing for flexible and unique web sites.</p>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-3 skill-wrapper" id="c-sharp">
+
+                <div class="skill-img-wrapper">
+                    <img src="Assets/C-SHARP.png" alt="C#">
+                </div>
+                <div class="skill-header-wrapper">
+                    <h4>C#</h4>
+                </div>
+                <div class="skill-description-wrapper">
+                    <p>Applying C# programming concepts as well as testing and debugging methods to make user applications.</p>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-3 skill-wrapper" id="git">
+                <div class="skill-img-wrapper">
+                    <img src="Assets/GIT-ICON.png" alt="GIT">
+                </div>
+                <div class="skill-header-wrapper">
+                    <h4>GIT</h4>
+                </div>
+                <div class="skill-description-wrapper">
+                    <p>Experience working within in a team environment managing projects between local and remote repositories.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--PORTFOLIO-->
+    <a id="portfolio-link"></a>
+    <div class="container-fluid portfolio-content-wrapper">
+
+        <div class="row portfolio-section-header">
+            <h3>PORTFOLIO<span class= "break"></span></h3>
+        </div>
+
+        <div class="row portfolio-items-wrapper">
+            <!--STATIC STORE FRONT-->
+            <div class="col-xs-12 col-sm-4 portfolio-item-wrapper">
+                <div class="portfolio-img-background" style="background-image:url(Assets/TurtleSite1.PNG)"></div>
+            
+                <div class="img-text-wrapper">
+                    <div class="logo-wrapper">
+                        <img src="Assets/HtmlIcon.png" alt="HTML Icon">
+                    </div>
+                    <div class="subtitle">
+                    HTML/CSS project creating a static storefront.
+                    </div>
+                    <br>
+                    <div class="button">
+                        <a href="https://github.com/emmcgill/StaticStoreFront/blob/master/index.html">VIEW</a>  
+                    </div>
+                </div>
+            </div>
+    
+            <!--CONSOLE APP-->
+            <div class="col-xs-12 col-sm-4 portfolio-item-wrapper">
+                <div class="portfolio-img-background" style="background-image:url(Assets/MysteryAtHillHouse.PNG)"></div>
+        
+                <div class="img-text-wrapper">
+                    <div class="logo-wrapper" id="c-sharp-logo">
+                        <img src="Assets/CSharpIcon.png" alt="C# Icon">
+                </div>
+            
+                    <div class="subtitle">
+                    A text based mystery game built within a console application.
+                    </div>
+                    <br>
+                    <div class="button">
+                        <a href="https://github.com/emmcgill/ClueGame">VIEW</a>  
+                    </div>
+                </div>
+            </div>
+
+            <!--UNITY HILL HOUSE-->
+            <div class="col-xs-12 col-sm-4 portfolio-item-wrapper">
+                <div class="portfolio-img-background" id="hillhouse2" style="background-image:url(Assets/HillHouse2.0.png)"></div>
+        
+                <div class="img-text-wrapper">
+                    <div class="logo-wrapper" id="c-sharp-logo">
+                        <img src="Assets/CSharpIcon.png" alt="C# Icon">
+                </div>
+            
+                    <div class="subtitle">
+                    A text based mystery updated using the Unity game engine.
+                    </div>
+                    <br>
+                    <div class="button">
+                        <a href="https://github.com/emmcgill/HillHouse2.0">VIEW</a>  
+                    </div>
+                </div>
+            </div>
+   
+            <!--CSS-->    
+            <div class="col-xs-12 col-sm-4 portfolio-item-wrapper">
+                <div class="portfolio-img-background" style="background-image:url(Assets/css-creature.PNG)"></div>
+        
+                <div class="img-text-wrapper">
+                    <div class="logo-wrapper">
+                        <img src="Assets/HtmlIcon.png" alt="HTML Icon">
+                    </div>
+            
+                    <div class="subtitle">
+                    CSS created icons using Marvel comics properties.
+                    </div>
+                    <br>
+                    <div class="button">
+                        <a href="https://codepen.io/emmcgill/pen/WNvRJwg">VIEW</a>  
+                    </div>
+                </div>
+            </div>
+
+
+            <!--NFL API-->    
+            <div class="col-xs-12 col-sm-4 portfolio-item-wrapper">
+                <div class="portfolio-img-background" style="background-image:url(Assets/NFLStatsLogo.PNG)"></div>
+        
+                <div class="img-text-wrapper">
+                    <div class="logo-wrapper">
+                        <img src="Assets/CSharpIcon.png" alt="HTML Icon">
+                    </div>
+            
+                    <div class="subtitle">
+                    API group project that tracks NFL player statistics throughout their career.
+                    </div>
+                    <br>
+                    <div class="button">
+                        <a href="https://github.com/emmcgill/NFLStats">VIEW</a>  
+                    </div>
+                </div>
+            </div>
+
+            <!--TrailBlazer-->    
+            <div class="col-xs-12 col-sm-4 portfolio-item-wrapper">
+                <div class="portfolio-img-background" id="trailblazer" style="background-image:url(Assets/Logo2.png)"></div>
+        
+                <div class="img-text-wrapper">
+                    <div class="logo-wrapper">
+                        <img src="Assets/CSharpIcon.png" alt="HTML Icon">
+                    </div>
+            
+                    <div class="subtitle">
+                    A web application that allows users to rate and review North Carolina state parks.
+                    </div>
+                    <br>
+                    <div class="button">
+                        <a href="https://trailblazer1150.azurewebsites.net/">VIEW</a>  
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- CONTACT -->
+    <a id="contact-link"></a>
+    <div class="container-fluid contact-content-wrapper">
+        <div class="row contact-section-header">
+            <h3>CONTACT<span class= "break"></span></h3>
+        </div> 
+        <div class="contact-form-wrapper">
+
+
+            <form action="https://formspree.io/xrgaavzj" method="POST" class = "form-wrapper">
+                <div class = "form-email-name-wrapper">
+                    <div class="row email-name-wrapper">
+                        <input type="email" name="_replyto" placeholder="Email:" size="49" class="col-xs-12 col-sm-6 form-input">
+                        <div class="col-xs-12 col-sm-.5 buffer"></div>
+                        <input type="text" name="name" placeholder="Name:" size="49" class="col-xs-12 col-sm-6 form-input">
+                    </div>
+                    <div class = "row form-message-wrapper">
+                        <textarea type="text" name="message" placeholder="Message:" rows="4" cols="111" class="col-xs-12 col-sm-12 text-input-wrapper"></textarea>
+                    </div>
+                </div>
+                <div class="row form-submit">
+                    <input type="submit" value="Send Message" class="submit-button">
+                </div>
+            </form>
+
+
+            <div class="row contact-links-wrapper">
+                <div class="col-xs-12 col-sm-4.5 social-icon"></div>
+                <div class="col-xs-4 col-sm-1 social-media-link">
+                    <a href="https://www.linkedin.com/in/erik-mcgill-673a90104/"><img src="Assets/LinkedInIcon.png" alt="LinkedIn"></a>
+                 </div>
+                 <div class="col-xs-4 col-sm-1 social-media-link social-icon">
+                   <a href="https://github.com/emmcgill"><img src="Assets/GitHubIcon.png" alt="GitHub"></a>
+                 </div>
+                <div class="col-xs-4 col-sm-1 social-media-link social-icon">
+                    <a href="https://codepen.io/emmcgill"><img src="Assets/CodePenIcon.png" alt="CodePen"></a>
+                </div>
+                <div class="col-xs-12 col-sm-4.5"></div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer-content-wrapper">
+        <p class="footer-info">
+           Erik McGill ©2020
+        </p> 
+    </div>
+</body>
+</html>
